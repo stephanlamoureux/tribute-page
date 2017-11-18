@@ -1,0 +1,88 @@
+body {
+  margin-top: 60px;
+  background-image: url("https://awesomewallpapers.files.wordpress.com/2016/01/nebula-2710ceb3c3a7c3a5x1694-16x10.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+ul.list-group li {
+  border: 0 none;
+  box-shadow: none;
+}
+
+ul.list-group li.grey {
+  background-color: #eee;
+}
+
+#jumbo {
+  padding-top: 10px;
+}
+
+.footer {
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#trophy {
+  font-size: 2.5em;
+  padding-bottom: 0px;
+}
+
+#info {
+  font-size: 2.5em;
+  padding-bottom: 0px;
+}
+
+blockquote {
+  background: #eee;
+  border-left: 10px solid #5d428b;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.thumbnail {}
+
+h1 {
+  margin-top: 10px;
+}
+
+.indent {
+  text-indent: 1.5em;
+  margin-bottom: 0px;
+}
+
+.bio {
+  margin-bottom: 15px;
+}
+
+.jumbotron {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron p.indent {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+h4 {
+  margin-bottom: 15px;
+}
