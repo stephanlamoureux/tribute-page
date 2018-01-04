@@ -78,6 +78,10 @@ blockquote {
   padding: 0.5em 10px;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+}
+
 .indent {
   text-indent: 1.5em;
   margin-bottom: 0px;
