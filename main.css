@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-#main {
+.main {
   background-color: #e4e4e4;
   padding: 10px 15px 20px 15px;
   border-radius: 4px;
@@ -26,21 +26,21 @@ img {
   border: 3px solid white;
 }
 
-#img-div {
+.img-div {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#tribute-info, #awards {
+.tribute-info, .awards {
   padding: 16px 15% 0px 15%;
 }
 
-#quote {
+.quote {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-#img-caption {
+.img-caption {
   text-align: center;
   background-color: #fff;
   margin: 0 auto;
@@ -72,7 +72,7 @@ li {
 }
 
 blockquote {
-  background: #eee;
+  background: #e4e4e4;
   border-left: 10px solid #5d428b;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -92,7 +92,7 @@ a:link, a:visited {
   text-align: center;
 }
 
-#footer {
+#name {
   color: white;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
@@ -107,17 +107,17 @@ a:link, a:visited {
   padding-bottom: 0px;
 }
 
-#title {
+.title {
   text-align: center;
   font-size: 2.3em;
 }
 
-#subtitle, #link, #footer {
+.subtitle, .link, .name {
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  #main {
+  .main {
     margin: 0 auto;
-      }
+  }
 }
