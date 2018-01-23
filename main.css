@@ -130,11 +130,6 @@ q:first-of-type {
   padding-bottom: 5px;
 }
 
-ul {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 li {
   padding-bottom: 5px;
 }
@@ -142,7 +137,7 @@ li {
 blockquote {
   background: #474747;
   border-left: 10px solid #7450b2;
-  margin: 1.5em 10px 1.5em 10px;
+  margin: 1.9em 10px 1.5em 10px;
   padding: 0.5em 1px 1em 10px;
 }
 
@@ -212,12 +207,20 @@ i {
   padding-top: 20px;
 }
 
+ul.awards-li {
+  padding: 0;
+  margin: 0;
+}
+
 .awards-li {
   list-style-type: none;
   text-align: center;
 }
 
 .awards-li li {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
   padding: 25px 10px 25px 10px;
 }
 
