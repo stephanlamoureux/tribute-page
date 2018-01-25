@@ -170,7 +170,7 @@ h4 a:link, a:visited {
 
 .quote-icon {
   font-size: 45px;
-  padding-bottom: 0px
+  padding-bottom: 0px;
 }
 
 h3.famous-quotes {
@@ -242,9 +242,7 @@ ul.awards-li {
   font-size: 1.4em;
 }
 
-.wiki-link {
-  font-size: 19px;
-}
+.wiki-link {}
 
 .wiki-p {
   padding: 0;
@@ -259,3 +257,30 @@ ul.awards-li {
   .main {
     margin: 0 auto;
   }
+  .indent {
+    margin-bottom: 0px;
+    line-height: 1.7;
+    text-align: center;
+    font-size: 1.09em;
+  }
+  nav {
+    width: 180px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .nav-link {
+    float: none;
+    background: #474747;
+    text-align: center;
+    width: 150px;
+  }
+  .head {
+    background: #474747;
+    margin: 10px 0px 5px 0px;
+    padding: 25px 10px 25px 10px;
+  }
+}
