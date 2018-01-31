@@ -9,6 +9,16 @@ body {
   text-align: center;
 }
 
+li {
+  padding-bottom: 5px;
+}
+
+i {
+  padding-top: 20px;
+}
+
+/* Wrapper */
+
 .main {
   background-color: #292929;
   padding: 0px 0px 20px 0px;
@@ -17,6 +27,8 @@ body {
   margin-right: 8%;
   min-width: 250px;
 }
+
+/* Header */
 
 .head {
   background: #474747;
@@ -27,6 +39,41 @@ body {
 .menu {
   padding: 20px 0px 0px 0px;
 }
+
+.title {
+  text-align: center;
+  font-size: 2.7em;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 0px 5px 0px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #f5f5f5;
+  padding-bottom: 5px;
+}
+
+/* Misc Formatting */
+
+.margin-top {
+  margin-top: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 1.5em;
+  margin-bottom: 0px;
+  line-height: 1.7;
+  text-align: left;
+  font-size: 1.09em;
+}
+
+/* Nav Menu */
 
 .nav-list {
   display: inline-block;
@@ -57,6 +104,8 @@ nav a:hover {
   float: left;
 }
 
+/* Main Image */
+
 img {
   max-width: 100%;
   height: auto;
@@ -73,45 +122,6 @@ img {
   padding-bottom: 4px;
 }
 
-.tribute-info {
-  padding: 16px 10% 0px 10%;
-}
-
-.sagan-quotes {
-  padding: 16px 10% 0px 10%;
-}
-
-q {
-  display: block;
-  text-align: center;
-  line-height: 1.5;
-  padding: 25px 10px 25px 10px;
-}
-
-.margin-top {
-  margin-top: 18px;
-}
-
-q:first-of-type {
-  margin-top: 18px;
-}
-
-.sagan-quotes q:nth-of-type(odd) {
-  background: #474747;
-  border-left: 10px solid #7450b2;
-}
-
-.sagan-quotes q:nth-of-type(even) {}
-
-.awards {
-  padding: 0px 10% 0px 10%;
-}
-
-.quote {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .img-caption {
   text-align: center;
   background-color: #474747;
@@ -122,70 +132,10 @@ q:first-of-type {
   font-size: 1.05em;
 }
 
-.subtitle {
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: normal;
-  color: #f5f5f5;
-  padding-bottom: 5px;
-}
+/* Biography Section */
 
-li {
-  padding-bottom: 5px;
-}
-
-blockquote {
-  background: #474747;
-  border-left: 10px solid #7450b2;
-  margin: 1.9em 10px 1.5em 10px;
-  padding: 0.5em 1px 1em 10px;
-}
-
-h4 a:link, a:visited {
-  color: #f5f5f5;
-  font-size: 1.2em;
-}
-
-.indent {
-  text-indent: 1.5em;
-  margin-bottom: 0px;
-  line-height: 1.7;
-  text-align: left;
-  font-size: 1.09em;
-}
-
-.center {
-  text-align: center;
-}
-
-.name {
-  color: white;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.name-link :hover {
-  text-decoration: underline;
-}
-
-.quote-icon {
-  font-size: 45px;
-  padding-bottom: 0px;
-}
-
-h3.famous-quotes {
-  padding: 10px 0px 15px 0px;
-  margin: 0;
-}
-
-h3.honors {
-  padding: 10px 0px 20px 0px;
-  margin: 0;
-}
-
-.trophy {
-  font-size: 45px;
-  padding-bottom: 0px;
+.tribute-info {
+  padding: 16px 10% 0px 10%;
 }
 
 .info {
@@ -203,8 +153,52 @@ h3.bio {
   padding-top: 0;
 }
 
-i {
-  padding-top: 20px;
+/* Quotes Section */
+
+q {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  padding: 25px 10px 25px 10px;
+}
+
+q:first-of-type {
+  margin-top: 18px;
+}
+
+.sagan-quotes {
+  padding: 16px 10% 0px 10%;
+}
+
+.sagan-quotes q:nth-of-type(odd) {
+  background: #474747;
+  border-left: 10px solid #7450b2;
+}
+
+.quote-icon {
+  font-size: 45px;
+  padding-bottom: 0px;
+}
+
+h3.famous-quotes {
+  padding: 10px 0px 15px 0px;
+  margin: 0;
+}
+
+/* Awards Section */
+
+.awards {
+  padding: 0px 10% 0px 10%;
+}
+
+.trophy {
+  font-size: 45px;
+  padding-bottom: 0px;
+}
+
+h3.honors {
+  padding: 10px 0px 20px 0px;
+  margin: 0;
 }
 
 ul.awards-li {
@@ -228,13 +222,18 @@ ul.awards-li {
   background: #474747;
 }
 
-.awards-li :nth-of-type(even) {}
+/* Footer blockquote */
 
-.title {
-  text-align: center;
-  font-size: 2.7em;
-  margin: 10px 0px 10px 0px;
-  padding: 0px 0px 5px 0px;
+blockquote {
+  background: #474747;
+  border-left: 10px solid #7450b2;
+  margin: 1.9em 10px 1.5em 10px;
+  padding: 0.5em 1px 1em 10px;
+}
+
+.quote {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .seperator p {
@@ -242,7 +241,19 @@ ul.awards-li {
   font-size: 1.4em;
 }
 
-.wiki-link {}
+/* Link to github */
+
+.name {
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.name-link :hover {
+  text-decoration: underline;
+}
+
+/* Link to Wikipedia */
 
 .wiki-p {
   padding: 0;
@@ -253,7 +264,9 @@ ul.awards-li {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
+/* Mobile Responsive */
+
+@media only screen and (max-width: 425px) {
   .main {
     margin: 0 auto;
   }
@@ -264,7 +277,7 @@ ul.awards-li {
     font-size: 1.09em;
   }
   nav {
-    width: 180px;
+    width: 260px;
     margin: 0 auto;
     padding: 0;
   }
@@ -276,7 +289,7 @@ ul.awards-li {
     float: none;
     background: #474747;
     text-align: center;
-    width: 150px;
+    width: 230px;
   }
   .head {
     background: #474747;
