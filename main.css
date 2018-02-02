@@ -275,7 +275,7 @@ blockquote {
   nav {
     width: 260px;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 20px;
   }
   .nav-list {
     list-style-type: none;
