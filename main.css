@@ -5,7 +5,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   font-family: sans;
-  color: #f5f5f5;
+  color: #F5F5F5;
   text-align: center;
 }
 
@@ -38,17 +38,21 @@ header {
 
 .title {
   text-align: center;
-  font-size: 2.7em;
+  font-size: 2.9em;
   margin: 10px 0 10px 0;
   padding: 0 0 5px 0;
-  color: #66c7b2;
+  color: #66C7B2;
+  -webkit-text-fill-color: #66C7B2;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292929;
 }
 
 .subtitle {
   text-align: center;
   font-size: 1.1em;
   font-weight: normal;
-  color: #f5f5f5;
+  color: #F5F5F5;
   padding-bottom: 5px;
 }
 
@@ -88,11 +92,11 @@ nav {
   display: block;
   text-align: center;
   padding: 14px 16px;
-  font-size: 1.15em;
+  font-size: 1.2em;
 }
 
 a:link, a:visited, a:active {
-  color: #66c7b2;
+  color: #66C7B2;
   text-decoration: none;
 }
 
@@ -142,10 +146,11 @@ img {
   font-size: 24px;
   padding: 10px 0 10px 0;
   margin: 0;
+  color: #F5F5F5;
 }
 
 .bio-icon {
-  color: #66c7b2;
+  color: #66C7B2;
 }
 
 /* Quotes Section */
@@ -167,16 +172,17 @@ q:first-of-type {
 
 .sagan-quotes q:nth-of-type(odd) {
   background: #474747;
-  border-left: 10px solid #66c7b2;
+  border-left: 10px solid #66C7B2;
 }
 
 .sagan-quotes-header {
   padding: 10px 0 15px 0;
   margin: 0;
+  color: #F5F5F5;
 }
 
 .quote-icon {
-  color: #66c7b2;
+  color: #66C7B2;
 }
 
 /* Awards Section */
@@ -188,6 +194,7 @@ q:first-of-type {
 .awards-header {
   padding: 10px 0 20px 0;
   margin: 0;
+  color: #F5F5F5;
 }
 
 .awards-list {
@@ -209,14 +216,14 @@ q:first-of-type {
 }
 
 .awards-icon {
-  color: #66c7b2;
+  color: #66C7B2;
 }
 
 /* Footer blockquote */
 
 blockquote {
   background: #474747;
-  border-left: 10px solid #66c7b2;
+  border-left: 10px solid #66C7B2;
   margin: 1.9em 10px 1.5em 10px;
   padding: 0.5em 1px 1em 10px;
 }
@@ -228,8 +235,9 @@ blockquote {
 
 .seperator p {
   margin: 0;
-  font-size: 1.4em;
-  color: #66c7b2;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #66C7B2;
 }
 
 /* Link to github */
@@ -260,9 +268,9 @@ blockquote {
 @media only screen and (max-width: 425px) {
   body {
     margin-top: 50px;
-    background: linear-gradient(#3ba091, #2d2a47);
+    background: linear-gradient(#3BA091, #585858);
     font-family: sans;
-    color: #f5f5f5;
+    color: #F5F5F5;
     text-align: center;
   }
   main {
