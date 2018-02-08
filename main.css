@@ -42,10 +42,6 @@ header {
   margin: 10px 0 10px 0;
   padding: 0 0 5px 0;
   color: #66C7B2;
-  -webkit-text-fill-color: #66C7B2;
-  /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #292929;
 }
 
 .subtitle {
@@ -302,4 +298,5 @@ blockquote {
     text-align: center;
     font-size: 1.09em;
   }
+
 }
