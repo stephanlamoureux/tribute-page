@@ -1,4 +1,4 @@
-# freeCodeCamp Responsive Design Certificate - Tribute Page
+# Tribute Page - freeCodeCamp Responsive Design Certificate
 
 
 # Technology Stack
