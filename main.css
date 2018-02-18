@@ -215,7 +215,7 @@ q:first-of-type {
   color: #66C7B2;
 }
 
-/* Footer blockquote */
+/* Blockquote */
 
 blockquote {
   background: #474747;
@@ -236,18 +236,6 @@ blockquote {
   color: #66C7B2;
 }
 
-/* Link to github */
-
-.name {
-  color: white;
-  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.name-link :hover {
-  text-decoration: underline;
-}
-
 /* Link to Wikipedia */
 
 .wiki-p {
@@ -257,6 +245,31 @@ blockquote {
 
 .wiki-p :hover {
   text-decoration: underline;
+}
+
+/* Footer */
+
+.name {
+  color: #F5F5F5;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.my-links {
+  padding-bottom: 15px;
+}
+
+.footer-link {
+  padding: 0 15px 0 15px;
+}
+
+.footer-link:link, .footer-link:visited, .footer-link:active {
+  color: #F5F5F5;
+}
+
+.footer-link:hover {
+  color: #66C7B2;
 }
 
 /* Mobile Responsive */
@@ -298,5 +311,4 @@ blockquote {
     text-align: center;
     font-size: 1.09em;
   }
-
 }
