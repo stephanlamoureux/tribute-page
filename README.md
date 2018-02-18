@@ -1,4 +1,9 @@
-# Tribute Page - freeCodeCamp Responsive Design Certificate
+# Applied Responsive Web Design Projects: Build a Tribute Page
+Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
+Here's a working example. Try not to look at its code.
+You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js.
+Once you're done, submit the URL to your working project with all its tests passing.
+Remember to use the Read-Search-Ask method if you get stuck.
 
 
 # Technology Stack
