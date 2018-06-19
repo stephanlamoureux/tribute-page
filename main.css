@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: sans;
+  font-family: Sans-Serif;
   color: #F5F5F5;
   text-align: center;
 }
@@ -33,7 +33,7 @@ main {
 /* Header */
 
 header {
-  background: #474747;
+  background-color: #474747;
   margin: 10px 0 5px 0;
   padding: 25px 0 25px 0;
 }
