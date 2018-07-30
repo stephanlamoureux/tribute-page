@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: Sans-Serif;
+  font-family: sans-serif;
   color: #F5F5F5;
   text-align: center;
 }
@@ -280,7 +280,6 @@ blockquote {
   body {
     margin-top: 0;
     background: linear-gradient(#3BA091, #585858);
-    font-family: sans;
     color: #F5F5F5;
     text-align: center;
   }
