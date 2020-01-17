@@ -25,3 +25,5 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
  1. The <img> element should responsively resize, relative to the width of its parent element, without exceeding its original size.
  2. The <img> element should be centered within its parent element.
 
+## Completed Project
+https://slamoureux.github.io/tribute-page/
