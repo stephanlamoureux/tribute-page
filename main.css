@@ -130,11 +130,11 @@ img {
   width: 80%;
   display: block;
   margin: 0 auto;
-  border: 3px solid #474747;
+  border: 2px solid #474747;
   padding: 5px 5px 0 5px;
   background: #474747;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: .8rem;
+  border-top-right-radius: .8rem;
 }
 
 .img-div {
