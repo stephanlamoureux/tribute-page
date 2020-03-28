@@ -3,7 +3,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -103,7 +106,9 @@ nav {
   font-weight: bold;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
   color: #66C7B2;
   text-decoration: none;
 }
@@ -264,6 +269,17 @@ blockquote {
 
 /* Footer */
 
+footer a:link,
+footer a:visited,
+footer a:active {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 .name {
   color: #F5F5F5;
   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
@@ -279,7 +295,9 @@ blockquote {
   padding: 0 15px 0 15px;
 }
 
-.footer-link:link, .footer-link:visited, .footer-link:active {
+.footer-link:link,
+.footer-link:visited,
+.footer-link:active {
   color: #F5F5F5;
 }
 
@@ -296,23 +314,28 @@ blockquote {
     color: #F5F5F5;
     text-align: center;
   }
+
   main {
     margin: 0 auto;
   }
+
   header {
     background: #474747;
     margin: 10px 0 5px 0;
     padding: 25px 10px 25px 10px;
   }
+
   nav {
     width: 260px;
     margin: 0 auto;
     padding-top: 20px;
   }
+
   .nav-list {
     list-style-type: none;
     padding: 0;
   }
+
   .nav-link {
     float: none;
     background: #474747;
@@ -320,6 +343,7 @@ blockquote {
     width: 9rem;
     border-radius: 1.5rem;
   }
+
   .indent {
     margin-bottom: 0;
     line-height: 1.7;
