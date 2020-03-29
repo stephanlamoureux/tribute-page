@@ -1,4 +1,4 @@
-# Applied Responsive Web Design Projects: Build a Tribute Page
+# Responsive Web Design Projects: Build a Tribute Page
 
 Fulfill the user stories by getting all of the tests to pass.
 Use whichever libraries you need. Give it your own personal style.
