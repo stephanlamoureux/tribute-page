@@ -307,7 +307,7 @@ footer a:hover {
 
 /* Mobile Responsive */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 700px) {
   body {
     margin-top: 0;
     background: linear-gradient(#3BA091, #585858);
@@ -323,6 +323,10 @@ footer a:hover {
     background: #474747;
     margin: 10px 0 5px 0;
     padding: 25px 10px 25px 10px;
+  }
+
+  .subtitle {
+    padding: 5px 15px;
   }
 
   nav {
@@ -351,3 +355,8 @@ footer a:hover {
     font-size: 1.09em;
   }
 }
+
+@media only screen and (max-width: 370px) {
+  .subtitle {
+    padding: 5px 10px;
+  }
