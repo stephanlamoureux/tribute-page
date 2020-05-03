@@ -307,10 +307,16 @@ footer a:hover {
 
 /* Mobile Responsive */
 
+@media only screen and (max-width: 1024px) {
+  body {
+    background: rgb(97, 97, 97);
+    background: linear-gradient(0deg, rgba(97, 97, 97, 1) 0%, rgba(44, 31, 57, 1) 16%, rgba(55, 123, 120, 1) 38%, rgba(66, 58, 74, 1) 61%, rgba(65, 57, 73, 1) 83%, rgba(59, 160, 145, 1) 100%);
+  }
+}
+
 @media only screen and (max-width: 700px) {
   body {
     margin-top: 0;
-    background: linear-gradient(#3BA091, #585858);
     color: #F5F5F5;
     text-align: center;
   }
@@ -360,3 +366,4 @@ footer a:hover {
   .subtitle {
     padding: 5px 10px;
   }
+}
