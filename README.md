@@ -25,4 +25,4 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
  2. The `<img>` element should be centered within its parent element.
 
 ### Completed Project
-https://slamoureux.github.io/tribute-page/
+https://stephanlamoureux.github.io/tribute-page/
